@@ -1,0 +1,287 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.wrapHeader {
+    background-image: url('../images/bg.jpg');
+    background-position: center top;
+    background-size: cover;
+    padding-bottom: 24%;
+}
+
+.itemHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.logo {
+    justify-content: flex-start;
+}
+
+.logo:before {
+    content: '</>';
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.listMenu {
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    transition: all .25s ease;
+}
+
+.listMenu:hover {
+    box-shadow: 0 2px 0 #fff;
+}
+
+.linkMenu {
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.firstTitle {
+    margin-top: 14%;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.thirdTitleHeader {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about,
+.skills,
+.contact {
+    padding: 60px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.thirdTitle {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.blockAbout,
+.blockSkill {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.wrapMyFace {
+  margin: 0 20px;
+  background-size: cover;
+  background-image: url(/static/media/avatar.bc570462.jpeg);
+  border-radius: 50%;
+  height: 158px;
+}
+
+.myFace {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.paragraphAbout {
+    width: 40%;
+    font-size: 16px;
+}
+
+.titleFourthAboute {
+    margin: 0;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.titleGoals {
+    text-align: right;
+}
+
+.goals {
+    text-align: right;
+}
+
+.itemSkill {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.wrapTitleSkill {
+    font-size: 30px;
+}
+
+.dataSkill {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: #9b9a9a;
+}
+
+.dataSkill {
+
+}
+
+.wrapDataSkill {
+    display: flex;
+    padding-top: 5px;
+}
+
+.HTML5 .dataSkill:nth-child(-n+8) {
+    background-color: #333;
+}
+
+.CSS3 .dataSkill:nth-child(-n+8) {
+    background-color: #333;
+}
+
+.JavaScript .dataSkill:nth-child(-n+6) {
+    background-color: #333;
+}
+
+.ReactJS .dataSkill:nth-child(-n+5) {
+    background-color: #333;
+}
+
+.VueJS .dataSkill:nth-child(-n+7) {
+    background-color: #333;
+}
+
+
+.wrapContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom: 55px;
+}
+
+.blockContact {
+    width: 25%;
+}
+
+.inputContact {
+    width: 40%;
+}
+
+.wrapInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-bottom: 28px;
+}
+
+.listInfo {
+    margin-top: 0;
+    list-style-type: none;
+    color: #000;
+}
+
+.dataInfo {
+    padding-top: 10px;
+    color: #888;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 25px;
+    border: 0;
+    box-shadow: 0 0 0 1px #919191;
+    padding: 15px 0;
+    text-indent: 10px;
+    display: block;
+}
+
+.textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+.textarea:focus {
+    border: 0;
+    box-shadow: 0 0 0 1px #919191;
+}
+
+.btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 60px;
+    border: 1px solid #333;
+    font-size: 15px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #333;
+}
+
+.itemFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listFooter {
+    margin-bottom: 10px;
+    color: #fff;
+    list-style-type: none;
+}
+
+.dataFooter {
+    padding-left: 20px;
+}
+
+.logoFooter:before {
+    font-size: 45px;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 1140px;
+    }
+}
