@@ -8,7 +8,7 @@ export const listInfo = [
     },
     {
         title: 'Email:',
-        data: 'vadim.balitskyi@gmail.com'
+        data: 'vadym.balitskyi@gmail.com'
     }
 ];
 

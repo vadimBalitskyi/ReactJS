@@ -17,7 +17,7 @@ class Header extends Component {
                     <div className="logo"></div>
                     <Menu items={listMenu}/>
                 </div>
-                <h1 className="firstTitle">VADIM BALITSKYI</h1>
+                <h1 className="firstTitle">VADYM BALITSKYI</h1>
                 <h3 className="thirdTitleHeader">front-end developer</h3>
             </div>
         );
