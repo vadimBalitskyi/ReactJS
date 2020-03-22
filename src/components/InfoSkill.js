@@ -24,10 +24,3 @@ class InfoSkill extends Component {
 }
 
 export default InfoSkill;
-
-// {_data.map(function(it, i){
-//    return <div className="wrapInfo" key={i}>
-//               {[ <p className="listInfo" key={i}>{it.title}</p>]}
-//               {[ <span className="dataInfo" key={i}>{it.data}</span>]}
-//           </div>;
-//  })}
