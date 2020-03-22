@@ -1,5 +1,11 @@
-Landing page created React
+# react-landing
 
-#first - npm intall
+## Project setup
+```
+npm install
+```
 
-#second - npm start
+### Compiles and hot-reloads for development
+```
+npm start
+```
